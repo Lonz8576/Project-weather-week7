@@ -6,6 +6,10 @@ background-color: #190a2e;
 header{
    padding-top: 20px;
 }
+a {
+   color: #0f0847;
+   font-weight: 600;
+}
 .container {
    background: linear-gradient(-20deg, #eee3e0 0%, #f7c882 100%);
    max-width: 600px;
@@ -15,7 +19,29 @@ header{
    border-radius: 18px;
    font-family: "Playfair Display", serif;
    font-weight: 400px;
+   
   
+}
+.city-input {
+   background-color:aliceblue;
+   border: #190a2e ridge 2px;
+   padding: 13px 17px;
+   border-radius: 10px;
+   width: 50%;
+
+}
+.enter-search {
+   background-color: #0f0847;
+   color: aliceblue;
+   padding: 13px 17px;
+   font-size: 16px;
+   border-radius: 10px;
+   margin-left: 10px;
+
+}
+.search-bar {
+   margin: 0 auto;
+   text-align: center;
 }
 .main-city {
   font-family: "Playfair Display", serif;
@@ -25,4 +51,16 @@ header{
   font-size: 42px;
   font-stretch: ultra-expanded;
 
+}
+.ten-day {
+   
+}
+footer {
+   padding-top: 15px;
+   border-top: 4px inset rgba(48, 4, 66, 0.288);
+   border-radius: 20px;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 500;
+   
 }
