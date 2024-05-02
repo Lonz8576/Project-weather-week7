@@ -46,10 +46,13 @@ a {
 }
 .main-img{
    display: block;
+   margin-bottom: 0;
    
 }
 h1 {
    text-align: center;
+   font-size: 42px;
+   
 }
 .main-city {
   font-family: "Playfair Display", serif;
