@@ -19,6 +19,7 @@ a {
    border-radius: 18px;
    font-family: "Playfair Display", serif;
    font-weight: 400px;
+  
    
   
 }
@@ -42,6 +43,11 @@ a {
 .search-bar {
    margin: 0 auto;
    text-align: center;
+}
+.main-img{
+   display: block;
+   margin-left: 170px;
+   
 }
 .main-city {
   font-family: "Playfair Display", serif;
