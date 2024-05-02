@@ -13,17 +13,17 @@
 <body>
     <div class="container">
  <header>
-    <form class="search-bar">
-<input type="search" placeholder="enter a city.." required class="city-input" />
-<input type="submit" value="Search" class="enter-search" />
-</form>
+  <form class="search-bar" id="search-bar">
+    <input type="search" placeholder="enter a city.." required id="city-input" class = "city-input" />
+    <input type="submit" value="Search" class="enter-search" />
+  </form>
  </header>
 <br>
    <span class="main-img"> <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/351/original/fourseason_square_225px.png?1714678935">
    </span>
-    <h1>
+    <h1><div class="main-city" id="main-city">
    76° F
-   <div class="main-city" >Gulfport</div>
+   <br> Gulfport</div>
     </h1>
     <span class="polor-grid">
     <span class="grid-low">Low</span>
@@ -53,6 +53,7 @@
    <a href="https://github.com/Lonz8576" target="_blank"> Nic Alonso</a> & open-sourced on <a href="https://github.com/Lonz8576/Project-weather-week7" target="_blank">GitHub</a> hosted on <a href="https://wondrous-syrniki-3433b5.netlify.app/" target="_blank">Netlify </a>
     </footer>
     </div>
+<script src="src/index.js"></script>
 </body>
 </html>
 
