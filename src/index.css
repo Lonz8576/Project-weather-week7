@@ -110,8 +110,24 @@ a {
    justify-content:space-evenly;
    margin-left: 25px;
    margin-right: 25px;
+   font-size: 16px;
+   font-weight: 500;
   
    
+}
+.ten-day {
+   background-color: #190a2e;
+   color: #e8e8f9;
+   border-radius: 25px;
+   padding: 10px 20px 10px 20px;
+   font-size: 15px;
+   font-weight: 400;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ten-day:hover{
+   background-color: rgba(255, 255, 255, 0.692);
+   transition: ease-in-out 900ms;
+   color: #0f0847;
 }
 footer {
    padding-top: 15px;
