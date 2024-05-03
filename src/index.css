@@ -47,8 +47,7 @@ a {
 .main-img{
    display: block;
    margin-bottom: 0;
-   
-}
+  }
 
 .main-city {
   font-family: "Playfair Display", serif;
@@ -59,6 +58,15 @@ a {
   font-stretch: ultra-expanded;
   text-align: center;
 
+}
+.main-temp {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+  font-size: 42px;
+  font-stretch: ultra-expanded;
+  text-align: center;
 }
 .polor-grid{
    display: grid;
