@@ -29,6 +29,7 @@ a {
    padding: 13px 17px;
    border-radius: 10px;
    width: 50%;
+   margin-bottom: ;
 
 }
 .enter-search {
@@ -45,9 +46,14 @@ a {
    text-align: center;
 }
 .main-img{
-   display: block;
+   display:inline-block;
    margin-bottom: 0;
+   width: 250px;
+   
   }
+#icon {
+   align-content: center;
+}
 
 .main-city {
   font-family: "Playfair Display", serif;

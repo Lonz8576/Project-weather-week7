@@ -9,7 +9,12 @@ function refreshWeather(response) {
     let pressureElement = document.querySelector("#pressure");
     let feelsElement = document.querySelector("#feels-like");
 
+    let iconElement = document.querySelector("#icon");
+ 
+    iconElement.innerHTML = `<img src = "${response.data.condition.icon_url}"class="main-img" />`;
 
+
+   
    cityElement.innerHTML = response.data.city;
    conditionElement.innerHTML = response.data.condition.description;
    humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
